@@ -2,25 +2,13 @@ package MyMa;
 
 public interface carInterface {
 
-    /*
-        Create 4 int variables variables
+    int hyundaiMinIncome = 100_000;
+    int toyotaMinIncome = 80_000;
+    int bmwMinIncome = 110_000;
+    int documentationFees = 1_000;
 
-            hyundaiMinIncome with value 100000
+    public String leaseMonthlyCalculator();
 
-            toyotaMinIncome with value 80000
-
-            bmwMinIncome with value 110000
-
-            documentationFees with value 1000
-
-
-            Create two methods -->
-
-             1) return type is String ,  no parameter  ,,, name is ---> leaseMonthlyCalculator
-
-             2) return type is boolean ,  no parameter ,,, name is ---> isAligable
-
-
-     */
+    boolean isAligable();
 
 }
